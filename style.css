@@ -3,7 +3,7 @@ body{
     margin: 0;
 }
 
-h1{
+.title{
     font-size: 50px;
 }
 
@@ -13,11 +13,14 @@ h1{
 
 section{
     display: flex;
+    margin-bottom: 150px;
+    padding-right: 10px;
 }
 
 .half-width{
     width: 50%;
     padding-left: 7%;
+    padding-right: 10px;
 }
 
 .half-width img{
@@ -36,4 +39,14 @@ section{
 .top-banner{
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
+}
+
+.dream-big{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}
+
+.dream-big-title{
+    font-size: 40px;
 }
